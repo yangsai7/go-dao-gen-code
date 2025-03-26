@@ -10,7 +10,7 @@
 
 `go-dao-code-gen` 是一个命令行工具，首先需要通过 `go get` 安装。
 
-    go get -u gitlab.nolibox.com/skyteam/go-dao-code-gen
+    go get -u github.com/yangsai7/go-mysql
 
 使用时可以参考命令帮助信息。
 ``` bash
