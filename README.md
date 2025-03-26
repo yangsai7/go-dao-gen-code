@@ -53,7 +53,7 @@ Usage 2(Specified tables):
 
 config.ini
 
-Mysql config reference:[go-mysql](https://gitlab.nolibox.com/skyteam/go-mysql)
+Mysql config reference:[go-mysql](https://github.com/yangsai7/go-mysql)
 ``` toml
 [mysql]
 dsn = "test:test@(127.0.0.1:3306)/t_db"
@@ -91,4 +91,4 @@ func main() {
 ```
 
 ## shadow表支持 ##
-go-dao-code-gen 会自动识别`fct_`开头和`_shadow`结尾的表名，并添加映射关系到[go-sqlbuilder](https://gitlab.nolibox.com/skyteam/go-sqlbuilder)中。当请求的context带有压测标识，会自动把操作的表名替换成对应的shadow表名。
+go-dao-code-gen 会自动识别`fct_`开头和`_shadow`结尾的表名，并添加映射关系到[go-sqlbuilder](https://github.com/yangsai7/go-sqlbuilder)中。当请求的context带有压测标识，会自动把操作的表名替换成对应的shadow表名。
