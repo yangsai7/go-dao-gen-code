@@ -20,7 +20,7 @@ const (
 	shadowPrefix = "fct_" // 部分老项目
 	shadowSuffix = "_shadow"
 
-	Version = "2023-11-14.v3"
+	Version = "2025.06.05 v1.0.0"
 )
 
 var (
