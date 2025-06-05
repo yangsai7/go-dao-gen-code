@@ -12,4 +12,7 @@ require (
 	github.com/yangsai7/go-sqlbuilder v0.0.0-20250326063412-ca998a270a2a
 )
 
-require filippo.io/edwards25519 v1.1.0 // indirect
+require (
+	filippo.io/edwards25519 v1.1.0 // indirect
+	github.com/go-bindata/go-bindata v1.0.0 // indirect
+)
