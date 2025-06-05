@@ -9,7 +9,7 @@ import (
 	"time"
     "fmt"
 
-	"gitlab.nolibox.com/skyteam/go-mysql"
+	"github.com/yangsai7/go-mysql"
 	"github.com/huandu/go-sqlbuilder"
 )
 
