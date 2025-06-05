@@ -9,7 +9,7 @@ import (
 	"strings"
     "database/sql"
 
-	"github.com/go-sql-driver/mysql"
+	"github.com/yangsai7/go-mysql"
 	"github.com/yangsai7/go-sqlbuilder"
 )
 

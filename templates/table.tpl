@@ -10,7 +10,7 @@ import (
     "fmt"
 
 	"github.com/yangsai7/go-mysql"
-	"github.com/huandu/go-sqlbuilder"
+	"github.com/yangsai7/go-sqlbuilder"
 )
 
 const ( // {{ .TableLowerCamelIdent }}TableName specifies the table name.
